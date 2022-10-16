@@ -1,2 +1,2 @@
 # Mindbox test tasks
-Test tasks for `mindbox` company vacancy
+Test tasks for `mindbox` company vacancy.
