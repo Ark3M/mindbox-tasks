@@ -37,6 +37,7 @@ def add_customers_in_group(customers_ids: list[str], groups_numbers: list[int]) 
     customers.insert(2, "customers_in_group", group_customers)
     return customers
 
+
 # Task 1. ID starts from zero.
 def count_customers_zeros(n_customers: int) -> dict and pd.DataFrame:
     customers_ids = create_customers_ids(n_customers, id_length, spec_number=0)
