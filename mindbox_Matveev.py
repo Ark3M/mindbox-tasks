@@ -55,6 +55,7 @@ def count_customers_spec(n_customers: int, n_first_id: int) -> dict and pd.DataF
     customers = add_customers_in_group(customers_ids, groups_numbers)
     return dict(Counter(groups_numbers)), customers  # You can choose what you want.
 
+
 #n_customers = random.randint(1, 100)  # For instance. You can set any integer value from 1 to N.
 #id_length = random.randint(5, 7)  # Generate a random ID length in range from 5 to 7.
 
