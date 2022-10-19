@@ -12,7 +12,7 @@ def create_customers_ids(n_customers: int, id_length: int, spec_number: int) -> 
 
     for i in range(1, n_customers + 1):  # Customer number starts from 1.
         zeros = id_length - len(str(i)) - len(str(spec_number))
-        customer_id = str(spec_number) + "".join([str(0) for i in range(zeros)]) + str(i)
+        customer_id = "{}{}{}".format(str(spec_number), "".join([str(0) for i in range(zeros)]), str(i))
         #customer_id = str(spec_digit) + "".join(random.choices(chars, k=id_length))  # Create random IDs
                                                                                       # with length = id_length.
         customers_ids.append(customer_id)
